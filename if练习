@@ -1,0 +1,42 @@
+#include<stdio.h>
+int main()
+{
+	double a,b,c;
+	printf("请输入a：");
+	scanf("%lf",&a);
+	printf("请输入b：");
+	scanf("%lf",&b);
+	printf("请输入c：");
+	scanf("%lf",&c);
+	if(a>b,a>c)
+	{
+		a=b+c;
+		printf("a=%lf.\n",a);
+		getchar();
+	}
+	 else
+	{
+		if(b>a,a>c)
+		{
+		  a=b*c;
+		  printf("a=%lf.\n",a);
+		  getchar();
+		}
+	    else
+	    {
+	    	if(a<b,a<c)
+	    	{
+	    		a=b-c;
+	    		printf("a=%lf",a);
+	    		getchar();
+			}
+			else
+			{
+			  printf("hahahaha");
+			  getchar();
+			}	
+		}
+	}
+	getchar();
+	return 0;
+}
